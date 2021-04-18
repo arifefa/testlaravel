@@ -1,0 +1,26 @@
+/* general */
+.btnLoadmore {
+    background-color:#1b477d;
+    border-radius: unset;
+}
+/* homepege */
+body.homepage .box-blog img {
+    width: 245px!important;
+}
+body.homepage .box-blog {
+    border:1px solid #e6e6e6;
+    padding: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body.homepage .box-blog .text-content h1 {
+    font-size: 24px !important;
+    font-family: 'Raleway', sans-serif;
+}
+body.homepage .box-blog .text-content p {
+    font-size: 19px !important;
+    color:#a1a1a1;
+}
+body.homepage .box-blog .text-content p.content::after {
+    content: ' Read more';
+    color:#0283de;
+}
